@@ -10,10 +10,7 @@
   "scripts": {
     "test": "./node_modules/.bin/mocha test/** --recursive"
   },
-  "bin": {
-    "bitcore": "./bin/bitcore",
-    "bitcored": "./bin/bitcored"
-  },
+ 
   "keywords": [
     "bitcoin",
     "transaction",
