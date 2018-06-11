@@ -8,8 +8,7 @@
   "author": "BitPay <dev@bitpay.com>",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha test/** --recursive",
-    "build-deb": "./scripts/build-deb"
+    "test": "./node_modules/.bin/mocha test/** --recursive"
   },
   "bin": {
     "bitcore": "./bin/bitcore",
@@ -33,13 +32,13 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/bitpay/bitcore.git"
+    "url": "https://github.com/sinabs/bitcore.git"
   },
   "dependencies": {
-    "bitcore-lib": "5.0.0-beta.1",
-    "bitcore-node": "5.0.0-beta.44",
-    "insight-api": "5.0.0-beta.44",
-    "insight-ui": "bitpay/insight#v5.0.0-beta.44"
+    "bitcore-lib": "https://github.com/sinabs/bitcore-lib.git#bifi",
+    "bitcore-node": "https://github.com/sinabs/bitcore-node.git",
+    "insight-api": "https://github.com/sinabs/insight-api.git#bifi",
+    "insight-ui": "https://github.com/sinabs/insight.git#bifi"
   },
   "license": "MIT",
   "devDependencies": {
