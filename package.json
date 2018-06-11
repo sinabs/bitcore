@@ -76,16 +76,16 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/bitpay/bitcore.git"
+    "url": "https://github.com/sinabs/bitcore.git"
   },
   "browser": {
     "request": "browser-request"
   },
   "dependencies": {
-    "bitcore-lib": "^0.14",
-    "bitcore-node": "~3.1.0",
-    "insight-api": "^0.4.0",
-    "insight-ui": "^0.4.0"
+    "bitcore-lib": "https://github.com/sinabs/bitcore-lib.git#bifi",
+    "bitcore-node": "https://github.com/sinabs/bitcore-node.git#bifi",
+    "insight-api": "https://github.com/sinabs/insight-api.git#bifi",
+    "insight-ui": "https://github.com/sinabs/insight.git#bifi"
   },
   "license": "MIT",
   "devDependencies": {
